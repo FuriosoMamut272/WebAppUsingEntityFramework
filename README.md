@@ -4,13 +4,13 @@
 
 ---
 
-## 📌 Description
+## Description
 
 This project demonstrates how to create an MVC Web Application using the **Database First** approach with Entity Framework Core and SQL Server. It includes database creation, scaffolding, and generation of models, controllers, and views.
 
 ---
 
-## 🗄️ Database Setup (SQL Server 2021)
+## Database Setup (SQL Server 2021)
 
 Run the following SQL script to create the database and tables:
 
@@ -38,7 +38,7 @@ GO
 
 ---
 
-## 📦 Required Packages
+## Required Packages
 
 Install the following packages using Package Manager Console or NuGet:
 
@@ -50,7 +50,7 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 
 ---
 
-## ⚙️ Scaffolding DbContext and Models
+## Scaffolding DbContext and Models
 
 Run the following command to generate the DbContext and Models from the database:
 
@@ -60,7 +60,7 @@ Scaffold-DbContext "Server=DESKTOP-GJDFMRJ\SQLEXPRESS01;Database=SampleDb;Truste
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 * **Models/** → Contains entity classes generated from the database
 * **Data/** → Contains the DbContext
@@ -69,7 +69,7 @@ Scaffold-DbContext "Server=DESKTOP-GJDFMRJ\SQLEXPRESS01;Database=SampleDb;Truste
 
 ---
 
-## 🖥️ Application Views
+## Application Views
 
 After generating Controllers and Views using Entity Framework, the application allows:
 
@@ -81,7 +81,7 @@ After generating Controllers and Views using Entity Framework, the application a
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 * ASP.NET Core MVC
 * Entity Framework Core
@@ -89,7 +89,7 @@ After generating Controllers and Views using Entity Framework, the application a
 
 ---
 
-##  Notes
+## Notes
 
 * This project uses the **Database First** approach.
 * Ensure SQL Server is running before executing scaffolding.
